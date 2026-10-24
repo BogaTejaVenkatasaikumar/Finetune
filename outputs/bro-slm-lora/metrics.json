@@ -1,0 +1,23 @@
+{
+  "train": {
+    "train_runtime": 92.6531,
+    "train_samples_per_second": 0.928,
+    "train_steps_per_second": 0.119,
+    "total_flos": 17362007185152.0,
+    "train_loss": 3.0901592428034004,
+    "epoch": 1.0
+  },
+  "validation": {
+    "validation_loss": 2.486917018890381,
+    "validation_runtime": 2.9835,
+    "validation_samples_per_second": 3.352,
+    "validation_steps_per_second": 3.352,
+    "eval_entropy": 2.298885202407837,
+    "eval_mean_token_accuracy": 0.5523552805185318,
+    "eval_num_tokens": 7987.0,
+    "epoch": 1.0
+  },
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "epochs": 1,
+  "max_seq_length": 512
+}
